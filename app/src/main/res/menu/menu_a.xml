@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemHome"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/itemPost"
+        android:icon="@drawable/post"
+        android:title="Post"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/itemPrivate"
+        android:icon="@drawable/profile"
+        android:title="Private"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/itemSet"
+        android:title="Setting" />
+    <item
+        android:id="@+id/itemExit"
+        android:title="Exit" />
+
+</menu>
